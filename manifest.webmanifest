@@ -1,0 +1,16 @@
+{
+  "name": "Hausplaner",
+  "short_name": "Hausplaner",
+  "description": "Unser Haus planen, einrichten und in 3D begehen",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eef0ec",
+  "theme_color": "#2457d6",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
