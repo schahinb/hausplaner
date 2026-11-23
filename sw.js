@@ -1,7 +1,7 @@
 // Automatisch erzeugt
-const CACHE = 'hausplaner-c6ed2bcb30b8';
+const CACHE = 'hausplaner-417ace9a9888';
 const KEEP_CACHES = 3;
-const FILES = ["./","./assets/index-CtiogjQl.js","./assets/html2canvas-DZEMYtgo.js","./assets/index.es-BTsrZyPN.js","./assets/purify.es-DiYuo5E0.js","./assets/rolldown-runtime-BrVfq_k5.js","./assets/figtree-latin-ext-wght-normal-DCwSJGxG.woff2","./assets/figtree-latin-wght-normal-D_ZTVpCC.woff2","./assets/index-DGQO_-9w.css","./assets/pdf.worker.min-CIqJB0yW.mjs","./manifest.webmanifest","./icon-192.png","./icon-512.png","./apple-touch-icon.png"];
+const FILES = ["./","./assets/index-B343V6V0.js","./assets/html2canvas-DZEMYtgo.js","./assets/index.es-CZ3UNHot.js","./assets/purify.es-DiYuo5E0.js","./assets/rolldown-runtime-BrVfq_k5.js","./assets/figtree-latin-ext-wght-normal-DCwSJGxG.woff2","./assets/figtree-latin-wght-normal-D_ZTVpCC.woff2","./assets/index-BnOTccD1.css","./assets/pdf.worker.min-CIqJB0yW.mjs","./manifest.webmanifest","./icon-192.png","./icon-512.png","./apple-touch-icon.png"];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()));
 });
